@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuanann.stray_cat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 对SD卡进行写入操作 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="宠物领养系统"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:windowSoftInputMode="adjustPan">
+        <activity
+            android:name=".activity.Enter"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity2" />
+        <activity android:name=".activity.News" />
+        <activity android:name=".activity.Recruit" />
+        <activity android:name=".activity.Myrecruit" />
+        <activity android:name=".activity.Mynews" />
+        <activity android:name=".activity.Back_login" />
+        <activity android:name=".activity.Login" />
+        <activity android:name=".activity.Circle_Insert" />
+        <activity android:name=".activity.Adopt_insert" />
+        <activity android:name=".activity.Circle_Enter" />
+        <activity android:name=".activity.Adopt_Enter" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.Register" />
+        <activity android:name=".activity.Staff_Newsinsert" />
+        <activity android:name=".activity.Staff_Recruitinsert" />
+        <activity android:name=".activity.Fm" />
+        <activity android:name=".activity.Back_userinsert" />
+        <activity android:name=".activity.Back_userupdate" />
+        <activity android:name=".activity.Back_admininsert" />
+        <activity android:name=".activity.Back_adminupdate" />
+        <activity android:name=".activity.Mine_Circle" />
+        <activity android:name=".activity.Mine_Foucs" />
+        <activity android:name=".activity.Mine_Adopt" />
+        <activity android:name=".activity.Mine_AdoptAdd" />
+        <activity android:name=".activity.Mine_Vol" />
+        <activity android:name=".activity.Mine_Donate" />
+        <activity android:name=".activity.Mine_update" />
+        <activity android:name=".activity.Search" />
+    </application>
+
+</manifest>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:paddingBottom="30dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:orientation="horizontal"
+        android:elevation="6dp"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:id="@+id/t1"
+                android:background="@drawable/n2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#79133c"
+                    android:text="萌宠猫咪"
+                    android:textSize="18dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#3e4145"
+                        android:id="@+id/t2"
+                        android:text="刚出生的小奶猫眼睛是什么颜色的？"
+                        android:textSize="24dp"
+                        android:layout_weight="3"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="关注"
+                        android:id="@+id/g"
+                        android:elevation="2dp"
+                        android:background="@drawable/a_back1"
+                        android:layout_marginLeft="40dp"
+                        android:textSize="18dp"
+                        android:textColor="#000000"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/t3"
+                    android:text="很多不了解猫咪的人都会觉得它很高冷，但是仔细接触下来，会发现猫咪身上也有很多的不同于狗狗的优点，这也可能就是人类喜欢猫咪的原因吧\n。
+\n
+第一、猫咪是名十分优秀的跳高者，猫咪一跃就能够跳出差不多像自己身高六倍高的高度，可以说是十分的厉害\n。
+\n
+第二、猫咪得智商非常的高，它们非常的聪明，从猫咪的大脑结构角度来看，它的大脑结构是不逊色的，与人脑的结构高度相似。但是因为它不会像人类一样说话，也懒于表达自己的想法\n。
+\n
+第三、猫咪有十分敏锐的听觉，猫咪的听觉能够听到的声音是人类能听到声音的四倍，能听到一些低分贝人类无法听到的声音\n。
+\n
+第四、猫咪的味觉有所偏颇，当给猫咪喂带有甜味的食物时，猫咪是品尝不出其中的甜味的。但是猫咪对水的敏感度高，品尝的出饮用水的不同味道，猫咪尤其喜欢流动的新鲜水，如果铲屎官给猫咪提前备好了温的静水的话，猫咪是不会青睐的\n。
+\n
+第五、有的铲屎官会给猫咪准备专门排泄的猫砂盆，细心观察的会发现猫咪在排泄完后，会把在猫砂盆的粑粑偷偷埋起来，有的铲屎官可能会觉得是无意的或者是淘气在玩弄，其实不是的，这是猫咪在试图掩盖自己排泄物气味，表达自己对铲屎官的听话。如果你的猫咪排泄完后并没有埋屎，那可能是它没有把你放在眼里\n。
+\n
+第六、平常在看猫咪的时候，大多从猫的种类、外表的颜色花样来发现猫咪的不同，如果大致相似就觉得差不多，殊不知每只猫咪鼻子上的纹理都是不同的，每一只猫咪都有它特别的纹理，就像每个人的指纹都一样是的\n。
+\n
+第七、铲屎官平时在养喵咪的时候会发现，猫咪有时候会喜欢用它的脸蹭你，除了想要表达喜欢和撒娇之外，猫咪用脸蹭蹭你也是想在你身上留下自己气味，觉得这样是对外界宣布自己的所有权，也是有股霸道总裁范。\n"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+        </LinearLayout></ScrollView>
+
+</RelativeLayout>

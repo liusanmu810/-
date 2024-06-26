@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 边框颜色值 -->
+    <item>
+        <shape>
+            <solid android:color="#f9f9f9" /><!--下划线颜色-->
+        </shape>
+    </item>
+    <item android:bottom="3px"> <!--下划线厚度-->
+        <shape>
+            <solid android:color="#ffffff" /><!--背景色 不能透明否则会显示上面的下划线颜色-->
+        </shape>
+    </item>
+
+</layer-list>

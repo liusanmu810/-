@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">宠物领养系统</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="type">
+        <item>寻猫</item>
+        <item>寻猫咪主人</item>
+    </string-array>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="20dp"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <com.example.yuanann.stray_cat.UnScrollListView
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="#f7f7f7"
+        android:dividerHeight="2px"
+        android:scrollbars="none"></com.example.yuanann.stray_cat.UnScrollListView>
+
+    <com.example.yuanann.stray_cat.UnScrollListView
+        android:id="@+id/list3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:divider="#f7f7f7"
+        android:dividerHeight="2px"
+        android:scrollbars="none"></com.example.yuanann.stray_cat.UnScrollListView>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fag1"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/rl_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="5dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:background="#fff"
+            android:textColor="#8a8a8a"
+            android:id="@+id/home"
+            android:text="首页"
+            android:drawableTop="@drawable/e2"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:background="#fff"
+            android:textColor="#8a8a8a"
+            android:id="@+id/recommend"
+            android:drawableTop="@drawable/e4"
+            android:text="动态"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:background="#fff"
+            android:textColor="#8a8a8a"
+            android:id="@+id/course"
+            android:drawableTop="@drawable/e6"
+            android:text="捐款"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-8dp"
+            android:background="#fff"
+            android:textColor="#8a8a8a"
+            android:id="@+id/circle"
+            android:drawableTop="@drawable/e8"
+            android:text="我的"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
